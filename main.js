@@ -4,6 +4,40 @@
 // tableau des unitées en lettre
 // tableau des dixaines en lettre
 // tableau des centaines en lettre
+var tableauUnitees = tableauDixaines = tableauCentaines = [];
+
+tableauUnitees.push("zéro");
+tableauUnitees.push("un");
+tableauUnitees.push("deux");
+tableauUnitees.push("trois");
+tableauUnitees.push("quatre");
+tableauUnitees.push("cinq");
+tableauUnitees.push("six");
+tableauUnitees.push("sept");
+tableauUnitees.push("huit");
+tableauUnitees.push("neuf");
+
+tableauDixaines.push("");
+tableauDixaines.push("dix");
+tableauDixaines.push("vingt");
+tableauDixaines.push("trente");
+tableauDixaines.push("quarante");
+tableauDixaines.push("cinquante");
+tableauDixaines.push("soixante");
+tableauDixaines.push("soixante-dix");
+tableauDixaines.push("quatre-vingt");
+tableauDixaines.push("quatre-vingt-dix");
+
+tableauDixaines.push("");
+tableauDixaines.push("cent");
+tableauDixaines.push("deux-cent");
+tableauDixaines.push("trois-cent");
+tableauDixaines.push("quatre-cent");
+tableauDixaines.push("cinq-cent");
+tableauDixaines.push("six-cent");
+tableauDixaines.push("sept-cent");
+tableauDixaines.push("huit-cent");
+tableauDixaines.push("neuf-cent");
 
 
 // Déclaration de la fonction récupérant un rang Précis
