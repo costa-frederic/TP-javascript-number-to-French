@@ -41,8 +41,13 @@ tableauDixaines.push("neuf-cent");
 
 
 // Déclaration de la fonction récupérant un rang Précis
+function recuperationDuRang(nb, nbSelectionRang){
     //algorithme de recupération de rang
-    //retour de la valeur
+    var chiffreDuRang = nb % nbSelectionRang;
+    if(typeof chiffreDuRang === "undefined" )
+        chiffreDuRang = 0   
+    return chiffreDuRang;
+}
 
 // Déclaration de la fonction transformant un rang en lettre
     //le nombre est transmis à la fonction permettant de récupérant un rang Précis
